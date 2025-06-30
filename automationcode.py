@@ -2,10 +2,10 @@ import os
 import shutil
 from datetime import datetime
 
-# ==== USER CONFIG ====
-GITHUB_REPO_PATH = r"C:\Users\Admin\Dsa_practice"  # Change this to your repo path
+
+GITHUB_REPO_PATH = r"C:\Users\Admin\Dsa_practice" 
 DEFAULT_LANGUAGE = "java"  # or "py", "cpp"
-# ======================
+
 
 def get_solution_template(link, filename):
     ext = filename.split('.')[-1]
@@ -19,7 +19,7 @@ def get_solution_template(link, filename):
         return ""
 
 def main():
-    print("📤 Auto LeetCode Uploader to GitHub")
+    print("Auto LeetCode Uploader to GitHub")
     problem_title = input("Problem title (e.g., Two Sum): ").strip()
     leetcode_link = input("LeetCode link: ").strip()
     category = input("Category (e.g., Arrays, Strings): ").strip()
@@ -27,7 +27,7 @@ def main():
 
     source_path = os.path.abspath(filename)
     if not os.path.exists(source_path):
-        print("❌ Source file not found.")
+        print("Source file not found.")
         return
 
     category_folder = os.path.join(GITHUB_REPO_PATH, category)
@@ -35,7 +35,6 @@ def main():
 
     dest_path = os.path.join(category_folder, filename)
 
-    # Add template comment at top
     with open(source_path, "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -50,7 +49,7 @@ def main():
     os.system(f'git commit -m "Added {problem_title} in {category}"')
     os.system("git push")
 
-    print("✅ Successfully pushed to GitHub!")
+    print("Successfully pushed to GitHub!")
 
 if __name__ == "__main__":
     main()
