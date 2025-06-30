@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/richest-customer-wealth/
+// Uploaded on: 2025-06-30
+
 class Solution {
     public int maximumWealth(int[][] accounts) {
         int n = accounts.length;
