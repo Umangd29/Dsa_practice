@@ -1,4 +1,4 @@
-// Problem: https://leetcode.com/problems/running-sum-of-1d-array/
+// Problem: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 // Uploaded on: 2025-06-30
 
 import java.lang.Math;
