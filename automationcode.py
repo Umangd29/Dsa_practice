@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 GITHUB_REPO_PATH = r"C:\Users\Admin\Dsa_practice" 
-DEFAULT_LANGUAGE = "java"  # or "py", "cpp"
+DEFAULT_LANGUAGE = "java"
 
 
 def get_solution_template(link, filename):
