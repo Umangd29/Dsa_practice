@@ -3,15 +3,14 @@
 
 class Solution {
     public int[] buildArray(int[] nums) {
-
-        // method 1
-        // int[] ans = new int[nums.length];
-        // for(int i = 0; i < nums.length; i++){
-        //     ans[i] = nums[nums[i]];
+        
+        // int[] tempNums = new int[nums.length];
+        // for(int i= 0; i < nums.length ; i ++) {
+        //     tempNums[i] = nums[nums[i]];
         // }
-        // return ans;
+        // return tempNums;
 
-// method 2
+
         int n= nums.length;
 
 
@@ -26,4 +25,3 @@ class Solution {
         return nums;
     }
 }
-
