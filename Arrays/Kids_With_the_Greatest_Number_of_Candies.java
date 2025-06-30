@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/running-sum-of-1d-array/
+// Uploaded on: 2025-06-30
+
 import java.lang.Math;
 class Solution {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
