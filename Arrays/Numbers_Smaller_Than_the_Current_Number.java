@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+// Uploaded on: 2025-07-03
+
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int n= nums.length;
