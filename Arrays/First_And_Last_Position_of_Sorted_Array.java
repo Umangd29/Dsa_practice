@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+// Uploaded on: 2025-07-03
+
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int first =checkFirst(nums, target);
