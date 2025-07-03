@@ -1,3 +1,6 @@
+// Problem: ..
+// Uploaded on: 2025-07-03
+
 package com.umang;
 
 public class Practice {
@@ -28,6 +31,7 @@ public class Practice {
             }
         }
 
-        return nums[start];
+        return nums[start]; //for ceiling
+        // return nums[start]; for floor
     }
 }
