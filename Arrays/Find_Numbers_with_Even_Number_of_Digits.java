@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+// Uploaded on: 2025-07-03
+
 class Solution {
     public int findNumbers(int[] nums) {
         int n = nums.length;
