@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/search-in-rotated-sorted-array/
+// Uploaded on: 2025-07-07
+
 https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1688697138
 
 class Solution {
