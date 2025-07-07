@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/rotate-array/
+// Uploaded on: 2025-07-07
+
 class Solution {
     public void rotate(int[] nums, int k) {
         int n = nums.length;
