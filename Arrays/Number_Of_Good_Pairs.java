@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/number-of-good-pairs/
+// Uploaded on: 2025-07-07
+
 class Solution {
      public int numIdenticalPairs(int[] nums) {
         int n = nums.length;
