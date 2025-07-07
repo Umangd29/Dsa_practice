@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+// Uploaded on: 2025-07-07
+
 https://leetcode.com/problems/peak-index-in-a-mountain-array/
 
 class Solution {
